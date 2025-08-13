@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ### Bộ code base để bắt đầu học khóa Full Stack MERN Pro (VIẾT CÁC REST API CHUẨN CHỈNH) - Lập Trình qua dự án thực tế Trello Clone 
+=======
+### Bộ code base để bắt đầu học khóa Full Stack MERN Pro (VIẾT CÁC REST API CHUẨN CHỈNH) - Lập Trình qua dự án thực tế Trello Clone
+>>>>>>> 177860eb73e9e1aeae84752122f7902bbc98c974
 ### Base project for my Full Stack MERN Pro Course - Build Trello App on YouTube!
 
 - Playlist khóa Pro: https://www.youtube.com/playlist?list=PLP6tw4Zpj-RJP2-YrhtkWqObMQ-AA4TDy
@@ -28,4 +32,8 @@
 * "@babel/plugin-transform-runtime": "^7.22.10"
 * "@babel/preset-env": "^7.22.10"
 * "babel-plugin-module-resolver": "^5.0.0"
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 177860eb73e9e1aeae84752122f7902bbc98c974
