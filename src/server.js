@@ -2,6 +2,7 @@ import express from 'express'
 import exitHook from 'async-exit-hook'
 import { CONNECT_DB, CLOSE_DB } from '~/config/mongodb'
 import { env } from '~/config/enviroment'
+import { errorHandlingMiddleware } from '~/middlewares/errorHandlingMiddleware'
 
 import { APIs_V1 } from '~/routes/v1'
 
@@ -12,7 +13,10 @@ const START_SERVER = () => {
 
   app.use(express.json())
 
-  app.use('/v1', APIs_V1) 
+  app.use('/v1', APIs_V1)
+  
+  //Middleware for error handling
+  app.use(errorHandlingMiddleware)
 
   app.listen(env.APP_PORT, env.APP_HOST, () => {
     console.log(`3. Hello ${env.AUTHOR}, I am running at http://${env.APP_HOST}:${env.APP_PORT}/`)
