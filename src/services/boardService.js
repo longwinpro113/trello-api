@@ -1,6 +1,6 @@
 import { slugify } from '~/utils/formatters.js'
 import { boardModel } from '~/models/boardModel.js'
-import { ApiError } from '~/utils/ApiError.js'
+import ApiError  from '~/utils/ApiError.js'
 import { StatusCodes } from 'http-status-codes'
 import { cloneDeep } from 'lodash'
 
